@@ -15,10 +15,31 @@ To write a python program to implement Breadth first Search.
 ### Program:
 
 
+graph= {
+         2:[3,4],
+         3:[5],
+         4:[6,7],
+         5:[6],
+         6:[],
+         7:[8],
+         8:[],}
 
-
-
-
+def bfs(visited,node,graph): 
+    queue=[]
+    queue.append(node)
+    visited.append(node)
+    while queue: 
+        
+        poped_node=queue.pop(0)
+        print(poped_node)
+        
+        for child in graph[poped_node]: 
+            
+            if child not in visited: 
+                queue.append(child)
+                visited.append(child)
+print("the order is")
+bfs([],2,graph)
 
 
 
@@ -26,6 +47,7 @@ To write a python program to implement Breadth first Search.
 
 ### Output:
 
+<img width="655" alt="image" src="https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/9f056910-6811-4731-9e31-b1c14b4b25a8">
 
 
 ### Result:
