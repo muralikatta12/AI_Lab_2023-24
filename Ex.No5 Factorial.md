@@ -21,7 +21,7 @@ factorial(A,B) :-
            B is A*D.
 ``` 
 ### Output:
-![Uploading image.png…]()
+![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/f4d21284-c834-4a2b-9abd-4e8015341852)
 
 
 
