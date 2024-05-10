@@ -45,8 +45,7 @@ fulladder(A,B,Cin,S,Cout):-
 
 ```
 ### Output:
-
-![Uploading image.png…]()
+![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/f8bb6736-5bc3-4ee4-8efb-689e7cef7385)
 
 
 ### Result:
