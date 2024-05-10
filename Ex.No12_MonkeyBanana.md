@@ -60,14 +60,6 @@ Step 7: Stop the program.<br>
 				 (at monkey ?y)
 				 (onbox ?y))
 	     :effect (haswater)))
-
-
-
-
-
-
-
-
 ### Input 
 Problem :
 (define (problem pb1)
