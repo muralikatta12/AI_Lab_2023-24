@@ -15,7 +15,7 @@ Step 9 : Define a problem for block world problem.<br>
 Step 10 : Obtain the plan for given problem.<br> 
      
 ### Program:
-
+```
 (define (domain blocksworld)
 (:requirements :strips :equality)
 (:predicates (clear ?x)
@@ -44,22 +44,20 @@ Step 10 : Obtain the plan for given problem.<br>
   :effect (and (holding ?ob) (clear ?underob)
                (not (on ?ob ?underob)) (not (clear ?ob)) (not (arm-empty)))))
 
-
-
-
-
-
-
-
+```
 ### Input 
+```
 (define (problem pb1)
    (:domain blocksworld)
    (:objects a b)
    (:init (on-table a) (on-table b)  (clear a)  (clear b) (arm-empty))
    (:goal (and (on a b))))
+```
 ### Output/Plan:
 
-![Uploading image.png…]()
+![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/597ff79a-7ff4-4773-a3dc-691dd5a40d9f)
+
+![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/5d8266b5-cb20-4594-b9f4-8a0ef5d539a4)
 
 
 ### Result:
