@@ -1,7 +1,7 @@
 # Ex.No: 11  Planning –  Block World Problem 
 ### DATE:  06/05/2024                                                                       
 ### REGISTER NUMBER : 212221060123
-### AIM: To find the sequence of plan for Block word problem using PDD
+### AIM: To find the sequence of plan for Block word problem using PDD 
 ###  Algorithm:
 Step 1 :  Start the program <br>
 Step 2 : Create a domain for Block world Problem <br>
