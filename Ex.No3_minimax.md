@@ -15,7 +15,7 @@ Write a mini-max search algorithm to find the optimal value of MAX Player from t
 9. Stop the program. 
 
 ### Program:
-
+``` 
 
 import math
 
@@ -43,12 +43,7 @@ print("The optimal value is : ", end = "")
 
   print(minimax(0, 0, True, scores, treeDepth))
 
-
-
-
-
-
-
+``` 
 ### Output:
 
 ![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/592c1806-8f16-4585-81df-00b29f3bc4ad)
