@@ -42,8 +42,8 @@ problem(blank_display).
 
 ### Output:
 
+![image](https://github.com/muralikatta12/AI_Lab_2023-24/assets/124357793/8c94444d-0374-48d8-81e7-3aaed492a826)
 
-![Uploading image.png…]()
 
 ### Result:
 Thus the simple omputer maintenance expert system was built sucessfully.
